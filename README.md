@@ -23,41 +23,52 @@ A simple yet powerful tool to convert between **sound pressure in Pascals** and 
 ```bash
 git clone https://github.com/your-username/sound-pressure-converter.git
 cd sound-pressure-converter
+```
 
 ## Install dependencies
+
 pip install -r requirements.txt
 
 ## 🏃 Run the app with Streamlit
+
 streamlit run app.py
 
 ## ✅ Example
+
 Input: 0.02 Pa
 Output: 60 dB SPL
 Description: Normal conversation
 
 ## 🧠 Why this Tool?
+
 Humans perceive sound logarithmically. That’s why we use dB instead of raw Pascal values.
 This tool helps translate abstract sound pressures into meaningful values — including warnings when sound is inaudible.
 
 ## 📁 Files Included
+
 - 'app.py' – the Streamlit app
 - 'conversions.py' – logic for the conversions
 - 'README.md' – this file
 - 'requirements.txt' – packages you need to install
 
 ## 💡 Ideas for Future Versions
+
 - Add visual scale or chart
 - More unit options (e.g. dBA weighting)
 - Expanded explanations about sound physics
-    - Logarithmic scale
-    - P0
-    - Negative dB's
-    - Frequencies
-    - Weighting
+  - Logarithmic scale
+  - P0
+  - Negative dB's
+  - Frequencies
+  - Weighting
 - Add export/share feature
 
 ## 🙋‍♀ Contact
+
 Built by SomethingwithJade
-  `📝 [GitHub Repo](https://github.com/your-username/sound-pressure-converter)`
+`📝 [GitHub Repo](https://github.com/your-username/sound-pressure-converter)`
 📸
+
+```
+
 ```
