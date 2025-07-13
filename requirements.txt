@@ -1,0 +1,3 @@
+#necesarry packages
+
+streamlit
