@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# VS Code config files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+
+# Ignore all PNGs except screenshot.png
+*.png
+!screenshot.png
